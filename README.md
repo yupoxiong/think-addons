@@ -1,8 +1,8 @@
 # think-addons
-The ThinkPHP 6 Addons Package
+> ThinkPHP6.0插件系统扩展，修改自[zz-studio/think-addons](https://github.com/zz-studio/think-addons)。
 
 ## 安装
-> composer require zzstudio/think-addons
+> composer require yupoxiong/think-addons
 
 ## 配置
 

@@ -121,7 +121,8 @@ if (!function_exists('get_addons_class')) {
         }
         switch ($type) {
             case 'controller':
-                $namespace = '\\addons\\' . $name . '\\controller\\' . $class;
+                $suffix    = config('route.controller_suffix') ? 'Controller' : '';
+                $namespace = '\\addons\\' . $name . '\\controller\\' . $class . $suffix;
                 break;
             default:
                 $namespace = '\\addons\\' . $name . '\\Plugin';
